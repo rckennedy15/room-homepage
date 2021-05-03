@@ -1,8 +1,12 @@
-import '../styles/app.css';
 import React from 'react';
+import Nav from './Nav';
+import ContentWrapper from './ContentWrapper';
 
-function App() {
-	return <div className='App'></div>;
+export default function App() {
+	return (
+		<div className='App text-xs font-main font-medium bg-white h-screen'>
+			<Nav />
+			<ContentWrapper />
+		</div>
+	);
 }
-
-export default App;

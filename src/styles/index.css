@@ -19,3 +19,12 @@ img {
 	height: auto;
 	vertical-align: bottom; /* Thanks, Jen Simmons */
 }
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+	display: inline;
+}
