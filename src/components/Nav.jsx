@@ -5,8 +5,8 @@ import NavItem from './NavItem';
 export default function Nav() {
 	return (
 		<nav className='absolute'>
-			<ol className='text-white py-10 font-semibold'>
-				<li className='inline px-10'>
+			<ol className='text-white py-10 font-bold text-[0.5rem]'>
+				<li className='inline px-6'>
 					<ReactLogo />
 				</li>
 				<NavItem content='home' first={true} />

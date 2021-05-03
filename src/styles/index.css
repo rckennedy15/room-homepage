@@ -27,4 +27,9 @@ img {
 
 svg {
 	display: inline;
+	transform: scale(0.7);
+}
+
+html {
+	font-size: 1.68vw;
 }

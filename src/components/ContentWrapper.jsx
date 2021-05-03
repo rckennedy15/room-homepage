@@ -14,7 +14,7 @@ export default function ContentWrapper() {
 					<h1 className='text-2xl font-semibold leading-7'>
 						Discover innovative ways to decorate
 					</h1>
-					<p className='text-gray py-4 text-[8px] leading-[0.8rem]'>
+					<p className='text-gray py-4 text-[0.5rem] leading-[0.8rem]'>
 						We provide unmatched quality, comfort, and style for property owners
 						across the country. Our experts combine form and function in
 						bringing your vision to life. Create a room in your own style with
@@ -27,10 +27,10 @@ export default function ContentWrapper() {
 				</div>
 			</div>
 			<div className='col-start-7 col-span-1 row-start-3 flex items-end'>
-				<button className='leftArrow bg-black w-1/2 h-3/4'>
+				<button className='leftArrow bg-black w-1/2 h-[5vw]'>
 					<LeftArrow />
 				</button>
-				<button className='rightArrow bg-black w-1/2 h-3/4'>
+				<button className='rightArrow bg-black w-1/2 h-[5vw]'>
 					<RightArrow />
 				</button>
 			</div>
@@ -38,10 +38,10 @@ export default function ContentWrapper() {
 				<img src='../images/image-about-dark.jpg' alt='' />
 			</div>
 			<div className='bg-white col-span-4 row-span-2 px-10 pt-10'>
-				<h1 className='text-[8px] tracking-[0.2rem] font-bold'>
+				<h1 className='text-[0.5rem] tracking-[0.2rem] font-bold'>
 					ABOUT OUR FURNITURE
 				</h1>
-				<p className='text-gray py-4 text-[7px] leading-[0.8rem]'>
+				<p className='text-gray py-4 text-[0.4375rem] leading-[0.8rem]'>
 					Our multifunctional collection blends design and function to suit your
 					individual taste. Make each room unique, or pick a cohesive theme that
 					best express your interests and what inspires you. Find the furniture
@@ -51,7 +51,11 @@ export default function ContentWrapper() {
 				</p>
 			</div>
 			<div className='bg-white col-span-3 row-span-2 h-[179px]'>
-				<img src='../images/image-about-light.jpg' alt='' className='h-full' />
+				<img
+					src='../images/image-about-light.jpg'
+					alt=''
+					className='transform-gpu origin-top scale-y-105'
+				/>
 			</div>
 		</div>
 	);
