@@ -27,9 +27,15 @@ img {
 
 svg {
 	display: inline;
-	transform: scale(0.7);
+	/* transform: scale(0.7); */
+}
+
+@media (min-width: 1024px) {
+	html {
+		font-size: 1.68vw;
+	}
 }
 
 html {
-	font-size: 1.68vw;
+	font-size: 6.4vw;
 }

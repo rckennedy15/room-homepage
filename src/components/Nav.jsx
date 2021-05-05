@@ -6,8 +6,8 @@ export default function Nav() {
 	return (
 		<nav className='absolute'>
 			<ol className='text-white py-10 font-bold text-[0.5rem]'>
-				<li className='inline px-6'>
-					<ReactLogo />
+				<li className='inline px-8'>
+					<ReactLogo className='w-[4vw]' />
 				</li>
 				<NavItem content='home' first={true} />
 				<NavItem content='shop' />
